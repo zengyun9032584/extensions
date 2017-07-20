@@ -1,0 +1,14 @@
+<!-- <div *ngIf="show" id="h11" #h11>
+    <div *ngFor = "let tt of title">
+           <span>{{tt}}</span>
+    </div>
+</div>
+<div *ngIf="nave" id="h12" #h12>
+    <div *ngFor = "let tt of title | slice:0:3;">
+           <span>{{tt}}</span>
+    </div>
+</div>
+<button (click)="showDiv()">show Div</button>
+<button (click)="showDiv2()">show Div2</button> -->
+<div [innerText]="name"></div>
+<div contenteditable="plaintext-only" [(contenteditableModel)]="name"></div>
